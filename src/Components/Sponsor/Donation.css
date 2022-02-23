@@ -1,0 +1,43 @@
+
+.Donation{
+    width: 100%;
+    background-color: white;
+}
+
+.click-to-donate-link-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-to-donate-link{
+    background-color: rgb(58, 138, 58);
+    border: transparent;
+    color: yellow;
+    padding: 10px;
+    margin: 10px;
+    font: normal normal bold 25px/25px "";
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.click-to-donate-link:hover{
+    background-color: rgb(0, 70, 0);
+    color: rgb(255, 255, 255);
+}
+
+.expand-doner-header{
+    background-color: rgb(168, 168, 168);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+.arrow-dowm{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    width: auto;
+}
